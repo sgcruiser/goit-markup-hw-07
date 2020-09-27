@@ -1,0 +1,74 @@
+.button {
+  font-family: inherit;
+}
+
+.banner__button {
+  min-width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+
+  border: none;
+  border-radius: 4px;
+
+  background-color: $accent-color;
+
+  color: $primary-color;
+
+  font-weight: 700;
+  font-size: 16px;
+  /* 1.87 */
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: $accent-secondary-color;
+  }
+}
+
+.modal__form-button {
+  @extend .banner__button;
+}
+
+.subscription__button {
+  @extend .banner__button;
+}
+
+.subscription__button {
+  position: relative;
+
+  padding-left: 29px;
+
+  text-align: start;
+  transition-property: background-color;
+  transition-duration: $duration;
+  transition-timing-function: $timing-function;
+
+  &::after {
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/svg/icon-send.svg);
+  }
+}
+
+.modal__form-button {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-property: background-color;
+  transition-duration: $duration;
+  transition-timing-function: $timing-function;
+}
