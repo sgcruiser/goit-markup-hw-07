@@ -69,8 +69,8 @@
   margin-bottom: 20px;
 
   color: $primary-color;
-  font-size: 14px;
-  font-weight: 700;
+  font-weight: $bold-font-weight;
+  font-size: 1.4rem;
   /*  1.14  */
   line-height: calc(16 / 14);
   text-transform: uppercase;
@@ -131,8 +131,8 @@
   margin-top: 0;
   margin-bottom: 20px;
 
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: $medium-font-weight;
+  font-size: 1.4rem;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
@@ -149,13 +149,13 @@
 
   background-color: $dark-color;
 
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: calc(20 / 16);
 
   color: $primary-color;
 
   &::placeholder {
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: calc(20 / 16);
 
     color: rgba(255, 255, 255, 0.6);

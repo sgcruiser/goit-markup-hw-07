@@ -75,7 +75,7 @@
 .catalog__description-text {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: calc(28 / 18);
   /* or 156% */
 
@@ -101,9 +101,9 @@
 
   color: $secondary-text-color;
 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  font-weight: $bold-font-weight;
+  font-size: 1.8rem;
+  line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 
@@ -112,7 +112,7 @@
   margin-bottom: 0;
   color: $primary-text-color;
 
-  font-size: 16px;
+  font-size: 1.6rem;
   /*  1.87  */
   line-height: calc(30 / 16);
 }

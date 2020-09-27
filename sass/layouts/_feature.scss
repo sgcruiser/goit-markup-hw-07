@@ -12,8 +12,8 @@
 
   color: $secondary-text-color;
 
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: $bold-font-weigh;
+  font-size: 1.4rem;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }

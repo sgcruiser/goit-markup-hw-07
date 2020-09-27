@@ -45,15 +45,15 @@
 
   color: $secondary-text-color;
 
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: $medium-font-weigh;
+  font-size: 1.6rem;
   line-height: 1.19;
 }
 
 .team__career {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 1.6rem;
   /*  1.19 */
   line-height: calc(19 / 16);
 }
