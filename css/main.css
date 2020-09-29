@@ -331,7 +331,7 @@ html {
   color: #757575;
   font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 40rem;
+  font-weight: 400;
   font-size: 1.4rem;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -373,7 +373,7 @@ html {
   padding-bottom: 24px;
   color: #000000;
   font-family: Raleway, sans-serif;
-  font-weight: 70rem;
+  font-weight: 700;
   font-size: 2.6rem;
   /* 1.19 */
   line-height: calc(31 / 26);
@@ -402,7 +402,7 @@ html {
   border-radius: 4px;
   background-color: #2196f3;
   color: #ffffff;
-  font-weight: 70rem;
+  font-weight: 700;
   font-size: 1.6rem;
   /* 1.87 */
   line-height: calc(30 / 16);
@@ -478,7 +478,7 @@ html {
   border-radius: 4px;
   background-color: #f5f4fa;
   color: #212121;
-  font-weight: 50rem;
+  font-weight: 500;
   font-size: 1.6rem;
   /*  1.62  */
   line-height: calc(26 / 16);
@@ -498,7 +498,7 @@ html {
 }
 
 .menu {
-  font-weight: 50rem;
+  font-weight: 500;
   /*  1.14 */
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
@@ -623,7 +623,7 @@ html {
   margin-right: auto;
   margin-bottom: 30px;
   color: #ffffff;
-  font-weight: 90rem;
+  font-weight: 900;
   font-size: 4.4rem;
   /* 1.36 */
   line-height: calc(60 / 44);
@@ -635,7 +635,7 @@ html {
   margin-top: 0;
   margin-bottom: 0;
   color: #212121;
-  font-weight: 70rem;
+  font-weight: 700;
   font-size: 3.6rem;
   /* 1.17 */
   line-height: calc(42 / 36);
@@ -654,7 +654,7 @@ html {
   margin-top: 0;
   margin-bottom: 10px;
   color: #212121;
-  font-weight: 70rem;
+  font-weight: 700;
   font-size: 1.4rem;
   line-height: calc(16 / 14);
   text-transform: uppercase;
@@ -740,7 +740,7 @@ html {
 .practice__text {
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: 70rem;
+  font-weight: 700;
   line-height: calc(16 / 14);
   text-align: center;
   text-transform: uppercase;
@@ -788,7 +788,7 @@ html {
   margin-top: 0;
   margin-bottom: 10px;
   color: #212121;
-  font-weight: 50rem;
+  font-weight: 500;
   font-size: 1.6rem;
   line-height: 1.19;
 }
@@ -851,7 +851,7 @@ html {
 .clients__title {
   margin-top: 0;
   margin-bottom: 50px;
-  font-weight: 70rem;
+  font-weight: 700;
   font-size: 3.6rem;
   /*  1.17 */
   line-height: calc(42 / 36);
@@ -953,7 +953,7 @@ html {
 .subscription__title {
   margin-top: 0;
   margin-bottom: 20px;
-  font-weight: 50rem;
+  font-weight: 500;
   font-size: 1.4rem;
   line-height: calc(16 / 14);
   text-transform: uppercase;
@@ -1026,7 +1026,7 @@ html {
   margin-top: 0;
   margin-bottom: 20px;
   color: #ffffff;
-  font-weight: 70rem;
+  font-weight: 700;
   font-size: 1.4rem;
   /*  1.14  */
   line-height: calc(16 / 14);
@@ -1179,7 +1179,7 @@ html {
   margin-top: 0;
   margin-bottom: 4px;
   color: #212121;
-  font-weight: 70rem;
+  font-weight: 700;
   font-size: 1.8rem;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
@@ -1235,7 +1235,7 @@ html {
 .modal__title {
   margin-top: 0;
   margin-bottom: 12px;
-  font-weight: 50rem;
+  font-weight: 500;
   font-size: 2rem;
   line-height: calc(23 / 20);
   text-align: center;
