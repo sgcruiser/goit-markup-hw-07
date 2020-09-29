@@ -57,39 +57,6 @@
   color: $secondary-text-color;
 }
 
-.button-close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 30px;
-  height: 30px;
-
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-
-  background-color: $primary-color;
-
-  transition-property: fill;
-  transition-duration: $duration;
-  transition-timing-function: $timing-function;
-
-  cursor: pointer;
-
-  &:hover {
-    fill: $accent-color;
-  }
-}
-
-.button-close__svg {
-  width: 11px;
-  height: 11px;
-}
-
 .modal__form {
   display: flex;
   flex-direction: column;

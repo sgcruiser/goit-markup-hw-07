@@ -7,7 +7,7 @@
   margin-top: 0;
   margin-bottom: 50px;
 
-  font-weight: $bold-font-weigh;
+  font-weight: $bold-font-weight;
   font-size: 3.6rem;
   /*  1.17 */
   line-height: calc(42 / 36);
@@ -28,32 +28,32 @@
   margin-left: 30px;
 }
 
-.clients__1 {
+.clients__company:nth-child(1) {
   width: 44px;
   height: 49px;
 }
 
-.clients__2 {
+.clients__company:nth-child(2) {
   width: 40px;
   height: 52px;
 }
 
-.clients__3 {
+.clients__company:nth-child(3) {
   width: 41px;
   height: 43px;
 }
 
-.clients__4 {
+.clients__company:nth-child(4) {
   width: 80px;
   height: 42px;
 }
 
-.clients__5 {
+.clients__company:nth-child(5) {
   width: 59px;
   height: 47px;
 }
 
-.clients__6 {
+.clients__company:nth-child(6) {
   width: 88px;
   height: 45px;
 }
