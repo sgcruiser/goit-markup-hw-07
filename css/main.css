@@ -871,32 +871,32 @@ html {
   margin-left: 30px;
 }
 
-.clients__company:nth-child(1) {
+.clients__item:nth-child(1) .clients__company {
   width: 44px;
   height: 49px;
 }
 
-.clients__company:nth-child(2) {
+.clients__item:nth-child(2) .clients__company {
   width: 40px;
   height: 52px;
 }
 
-.clients__company:nth-child(3) {
+.clients__item:nth-child(3) .clients__company {
   width: 41px;
   height: 43px;
 }
 
-.clients__company:nth-child(4) {
+.clients__item:nth-child(4) .clients__company {
   width: 80px;
   height: 42px;
 }
 
-.clients__company:nth-child(5) {
+.clients__item:nth-child(5) .clients__company {
   width: 59px;
   height: 47px;
 }
 
-.clients__company:nth-child(6) {
+.clients__item:nth-child(6) .clients__company {
   width: 88px;
   height: 45px;
 }
